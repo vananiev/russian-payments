@@ -11,7 +11,7 @@ class WC_Rpg_Webmoney extends WC_Rpg_Gateway{
 		// Title of the payment method shown on the admin page.
 		$this->method_title = 'Webmoney';
 		$this->method_description = 'Принимайте оплату с помощью Webmoney '.
-			'(<a href="/wp-admin/admin.php?page=wc-settings&tab=checkout&section=wc_rpg">Russian Payment Gateways</a>)';
+			'(<a href="/wp-admin/admin.php?page=wc-settings&tab=checkout&section=wc_rpg">Russian Payments</a>)';
 
 		$this->enabled 			= $this->get_option( 'enabled' );
 		$this->title 			= $this->get_option( 'title' );

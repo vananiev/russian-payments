@@ -3,7 +3,9 @@ Contributors: vananiev
 Tags: банковская карта, яндекс.деньги, webmoney, robokassa, qiwi, payment getaway, woo commerce, woocommerce, ecommerce
 Requires at least: 4.4.1
 Tested up to: 4.4.1
-Stable tag: trunk
+Stable tag: v0.1
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Allows you to use Bank Card, Yandex.Money, Webmoney, Robokassa, Qiwi payment gateway with the WooCommerce plugin.
 

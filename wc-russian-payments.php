@@ -1,10 +1,10 @@
 <?php 
 /*
-  Plugin Name: Payment Gateways
+  Plugin Name: Russian Payments
   Plugin URI: http://russian-payments.ru
   Description: Принимайте оплату Банковской картой, Яндекс, Вебмани, Робокасса, Qiwi в магазине на плагине WooCommerce.
   Version: 0.1
-  Author: Vitalij Ananev
+  Author: Vitalij Ananiev
   Author URI: mailto:support@russian-payments.ru
   Documentstion:
  */
