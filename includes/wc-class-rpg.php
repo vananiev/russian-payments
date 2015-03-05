@@ -4,10 +4,10 @@ class WC_Rpg extends WC_Abstract_Rpg{
 
 	public function __construct(){
 
-		$this->id = 'russian_payment_gateways';
+		$this->id = 'russian_payments';
 		$this->icon = plugin_dir_url(__FILE__) . '/rpg.png';
 		// Title of the payment method shown on the admin page.
-		$this->method_title = 'Russian Payment Gateways';
+		$this->method_title = 'Russian Payments';
 		$this->method_description = 'Принимайте оплату с помощью Яндекс.Денег, Webmoney, QIWI, Robokassa';
 
 		// get saved options
