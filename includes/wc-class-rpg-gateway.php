@@ -70,6 +70,7 @@ abstract class WC_Rpg_Gateway extends WC_Abstract_Rpg{
 			'sum' => $sum,
 			'currency' => $currency,
 			'gateway' => $this->gateway,
+            'timestamp' => time(),
 			'description' => 'Order '.$order->id.' payment'
 		);
 		$data['hash'] = $this->generate_request_hash($data);
@@ -83,8 +84,9 @@ abstract class WC_Rpg_Gateway extends WC_Abstract_Rpg{
 	* Generate hash for dialog by external gateway
 	**/
 	private function generate_request_hash(array $data){
-		return $this->createHash($data['appid'].':'.$data['orderid'].':'.$data['sum'].':'.$data['currency'].':'.
-			$this->secret.':'.$data['gateway'].':'.$data['description']);
+		return $this->createHash($data['appid'].':'.$data['orderid'].':'.$data['sum'].':'.
+            $data['currency'].':'.	$this->secret.':'.$data['gateway'].':'.
+            $data['timestamp'] . ':' . $data['description']);
 	}
 }
 ?>
